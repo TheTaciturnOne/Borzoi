@@ -1,0 +1,8 @@
+{
+  "borzoi_interaction": {
+    "subtitle": "subtitles.borzoi.borzoi_interaction",
+    "sounds": [
+      "borzoi:borzoi_interaction"
+    ]
+  }
+}

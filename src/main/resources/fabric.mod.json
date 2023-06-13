@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "borzoi",
+  "version": "${version}",
+
+  "name": "Borzoi",
+  "description": "The longest of bois",
+  "authors": [
+    "TheTaciturnOne"
+  ],
+  "contact": {
+    "My Twitch": "https://www.twitch.tv/thetaciturnone",
+    "My Discord": "https://discord.gg/DZPkZRfCwz"
+  },
+
+  "license": "MIT License",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thetaciturnone.borzoi.Borzoi"
+    ],
+    "client": [
+      "net.thetaciturnone.borzoi.BorzoiClient"
+    ]
+  },
+  "mixins": [
+    "borzoi.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
